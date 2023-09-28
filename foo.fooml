@@ -1,0 +1,3 @@
+<p my_attr="asdf" template={var} />
+    "my content with {template}"
+</p>

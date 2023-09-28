@@ -1,0 +1,14 @@
+[package]
+name = "retoken"
+version = "0.1.5"
+edition = "2021"
+license = "MIT"
+description = "Build &str tokenizers using regex"
+homepage = "https://github.com/evictionapp/retoken"
+repository = "https://github.com/evictionapp/retoken"
+readme = "../README.md"
+
+[dependencies]
+lazy-regex = "3.0.2"
+retoken-macros = { version = "0.1.0", path = "../retoken-macros" }
+thiserror = "1.0.49"

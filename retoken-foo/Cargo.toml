@@ -1,0 +1,8 @@
+[package]
+name = "retoken-foo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ariadne = { version = "0.3.0", features = ["auto-color"] }
+retoken = { version = "0.1.0", path = "../retoken" }
